@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="hero-buttons">
           <a href="#projetos" className="btn">Ver meus projetos</a>
           
-          <a href="/Curriculo_Evely_Paz.pdf" download="Curriculo_Evely_Paz.pdf" className="btn btn-outline">
+          <a href="./Curriculo_Evely_Paz.pdf" download="Curriculo_Evely_Paz.pdf" className="btn btn-outline">
             Baixar CV
           </a>
         </div>
