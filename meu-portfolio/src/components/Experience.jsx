@@ -1,36 +1,40 @@
-export default function Experience() {
-  const minhaTrajetoria = [
-    { 
-      id: 1, 
-      titulo: 'Bacharelado em Sistemas de Informação', 
-      local: 'Universidade Federal do Ceará (UFC)', 
-      ano: '2024 - 2027',
-      detalhe: 'Formação superior focada em alinhar tecnologia com necessidades de negócios.'
-    },
-    { 
-      id: 2, 
-      titulo: 'Técnico em Redes de Computadores', 
-      local: 'EEEP Dr. Salomão Alves de Moura', 
-      ano: '2021 - 2023',
-      detalhe: 'Base técnica sólida em infraestrutura e computação.'
-    }
-  ];
+import { education, experiences } from '../data/experience';
 
+export default function Experience() {
   return (
-    <section className="experience" id="experiencia">
+    <section className="experience" id="formacao">
       <div className="container">
-        <h2 className="section-title">Minha Trajetória</h2>
-        <div className="timeline">
-          {minhaTrajetoria.map((item) => (
-            <div key={item.id} className="timeline-item">
-              <h3>{item.titulo}</h3>
-              <p className="local">{item.local}</p>
-              <span className="ano">{item.ano}</span>
-              <p style={{ marginTop: '1rem', color: '#475569', fontSize: '0.95rem' }}>
-                {item.detalhe}
-              </p>
+        <p className="section-kicker center">Trajetória</p>
+        <h2 className="section-title">Formação e Experiência</h2>
+        <div className="experience-grid">
+          <section className="experience-column" aria-labelledby="education-title">
+            <h3 className="column-title" id="education-title">Formação</h3>
+            <div className="timeline">
+              {education.map((item) => (
+                <div key={item.id} className="timeline-item">
+                  <h3>{item.title}</h3>
+                  <p className="local">{item.institution}</p>
+                  <span className="ano">{item.period}</span>
+                </div>
+              ))}
             </div>
-          ))}
+          </section>
+
+          <section className="experience-column" aria-labelledby="experience-title">
+            <h3 className="column-title" id="experience-title">Experiência</h3>
+            {experiences.map((item) => (
+              <div className="timeline-item" key={item.id}>
+                <h3>{item.title}</h3>
+                <p className="local">{item.organization}</p>
+                <span className="ano">{item.period}</span>
+                <ul className="activity-list">
+                  {item.activities.map((activity) => (
+                    <li key={activity}>{activity}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </section>
         </div>
       </div>
     </section>

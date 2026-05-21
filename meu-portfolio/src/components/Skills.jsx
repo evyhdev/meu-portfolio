@@ -1,30 +1,23 @@
-export default function Skills() {
-  const designSkills = ['Figma', 'UX/UI Design', 'Wireframing', 'Prototipação', 'Design System', 'Pesquisa com Usuário'];
-  const devSkills = ['React', 'TypeScript', 'JavaScript', 'HTML5 & CSS3', 'Vite', 'Git & GitHub'];
+import { skillGroups } from '../data/skills';
 
+export default function Skills() {
   return (
-    <section className="skills" id="habilidades">
+    <section className="skills" id="competencias">
       <div className="container">
-        <h2 className="section-title">Meu Arsenal de Ferramentas</h2>
+        <p className="section-kicker center">Habilidades</p>
+        <h2 className="section-title">Competências</h2>
         
         <div className="skills-wrapper">
-          <div className="skills-box">
-            <h3>🎨 Design & UX</h3>
-            <div className="tags-container">
-              {designSkills.map(skill => (
-                <span key={skill} className="tag tag-design">{skill}</span>
-              ))}
-            </div>
-          </div>
-
-          <div className="skills-box">
-            <h3>💻 Front-end & Dev</h3>
-            <div className="tags-container">
-              {devSkills.map(skill => (
-                <span key={skill} className="tag tag-dev">{skill}</span>
-              ))}
-            </div>
-          </div>
+          {skillGroups.map((group) => (
+            <article className="skills-box" key={group.title}>
+              <h3>{group.title}</h3>
+              <ul className="skills-list">
+                {group.items.map((skill) => (
+                  <li key={skill}>{skill}</li>
+                ))}
+              </ul>
+            </article>
+          ))}
         </div>
       </div>
     </section>
