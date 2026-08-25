@@ -1,22 +1,22 @@
 export const PROFILE = {
   name: 'Evely Paz da Silva',
-  title: 'UX/UI Designer & Frontend Developer',
+  title: 'UX Designer | UX Research & Produto Digital',
   headline:
-    'Estudante de Sistemas de Informação na UFC, com foco em UX/QA, UI, prototipação, desenvolvimento web e experiências digitais interativas.',
-  candidature: 'Portfólio de UX/UI, Frontend e Experiências Digitais',
+    'Estudante de Sistemas de Informação na Universidade Federal do Ceará (UFC), com experiência em UX Research, UX/UI, prototipação, análise de usabilidade, arquitetura da informação e documentação de produtos digitais. Atualmente atuo como bolsista de UX/QA no Hub de Games do Ceará e como UX/UI Designer voluntária no Empreende UFC.',
+  candidature: 'Portfólio de UX Research, Produto Digital e UX/UI',
   about:
-    'Sou estudante do 5º semestre de Sistemas de Informação na Universidade Federal do Ceará — Campus Quixadá, com experiência prática em UX/UI, prototipação no Figma, desenvolvimento web e documentação de projetos digitais.',
+    'Sou UX Designer e estudante do 5º semestre de Sistemas de Informação na Universidade Federal do Ceará — Campus Quixadá. Tenho experiência prática em UX Research, prototipação no Figma, análise de usabilidade, arquitetura da informação, fluxos de usuário, levantamento e validação de requisitos e documentação de produtos digitais.',
   aboutComplement:
-    'Atuo na criação de interfaces web e mobile, organização de fluxos de navegação, estruturação de requisitos, arquitetura da informação e planejamento de melhorias UX/UI. Tenho interesse em produtos digitais, jogos educacionais, experiências interativas e usabilidade aplicada a sistemas.',
+    'Atualmente sou bolsista de UX/QA no Hub de Games do Ceará e UX/UI Designer voluntária no Empreende UFC, onde participo do desenvolvimento do PegaPista!, um produto digital voltado à experiência de corrida. Tenho interesse em compreender comportamentos e necessidades dos usuários, organizar informações complexas e transformar descobertas em soluções digitais claras, estruturadas e aplicáveis ao produto. Também utilizo inteligência artificial como apoio à pesquisa, análise, ideação e exploração de soluções.',
   highlights: [
-    'Formação técnica em Redes de Computadores',
-    'UX/UI Designer & Frontend Developer na AvanteTech Jr.',
-    'Interesse em games, UX/QA e interfaces digitais',
+    'Bolsista UX/QA — Hub de Games do Ceará',
+    'UX/UI Designer voluntária — Empreende UFC',
+    'UX Research, Produto Digital e Usabilidade',
   ],
   candidatureSection: {
     eyebrow: 'Interesses profissionais',
-    title: 'UX/QA, UI e Game Design',
+    title: 'UX Research, Produto Digital e UX/UI',
     text:
-      'Tenho interesse em contribuir com prototipação, análise de usabilidade, documentação, fluxos de navegação e criação de experiências digitais interativas. Meus projetos combinam UX/UI, desenvolvimento web, mobile e game design, com destaque para jogos educacionais, produtos digitais e interfaces voltadas para usuários reais.',
+      'Tenho interesse em pesquisa com usuários, comportamento, análise de usabilidade e estratégia de produto. Busco transformar problemas, informações e descobertas em experiências digitais claras, estruturadas e úteis, colaborando com diferentes áreas ao longo do desenvolvimento do produto.',
   },
 };

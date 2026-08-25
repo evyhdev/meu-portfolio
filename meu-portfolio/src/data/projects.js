@@ -2,45 +2,31 @@ import { PROJECT_DETAILS_LINKS, PROJECT_DRIVE_LINKS, PROJECT_EXTERNAL_LINKS } fr
 
 export const projects = [
   {
-    id: 'operacaoRockstar',
-    title: 'Operação Rockstar: Protocolo Seguro',
-    category: 'Game Design | UX | Jogo Educacional',
+    id: 'pegaPista',
+    title: 'PegaPista!',
+    category: 'UX/UI | Produto Digital | Mobile | Gamificação | Empreende UFC',
     description:
-      'Jogo educacional criado para a disciplina de Gestão da Tecnologia da Informação, com dinâmica de RPG, tabuleiro e quiz interativo. O projeto aborda temas como Governança de TI, Segurança da Informação, COBIT, ITIL, riscos e processos.',
+      'Produto digital mobile voltado ao registro de atividades, comunidade, ranking, gamificação e evolução da experiência de corrida. O projeto faz parte do Empreende UFC e continua em desenvolvimento.',
     role:
-      'Regras do jogo, fluxo da partida, prototipação, documentação e planejamento da experiência do jogador.',
-    tags: ['Game Design', 'UX', 'Prototipação', 'Educação', 'RPG', 'Quiz'],
-    driveLink: PROJECT_DRIVE_LINKS.operacaoRockstar,
-    detailsLink: PROJECT_DETAILS_LINKS.operacaoRockstar,
-    externalLink: PROJECT_EXTERNAL_LINKS.operacaoRockstar,
+      'Desenvolvimento e refinamento de interfaces no Figma, estruturação de fluxos e funcionalidades, pesquisa de referências e benchmarking, documentação de melhorias UX/UI e colaboração com equipe multidisciplinar na evolução do produto.',
+    tags: ['UX/UI', 'Figma', 'Produto Digital', 'Benchmarking', 'User Flows', 'Gamificação', 'Empreende UFC'],
+    driveLink: PROJECT_DRIVE_LINKS.pegaPista,
+    detailsLink: PROJECT_DETAILS_LINKS.pegaPista,
+    externalLink: PROJECT_EXTERNAL_LINKS.pegaPista,
     externalLabel: 'Ver protótipo',
   },
   {
     id: 'hubUfc',
     title: 'HUB UFC',
-    category: 'UX/UI | Arquitetura da Informação',
+    category: 'UX Research | UX/UI | Arquitetura da Informação',
     description:
-      'Plataforma web criada na disciplina de UX para centralizar eventos, grupos, serviços, projetos, bolsas, pesquisas e oportunidades acadêmicas da faculdade.',
+      'Plataforma acadêmica desenvolvida em disciplina de UX para centralizar eventos, grupos, serviços, projetos, bolsas, pesquisas e oportunidades da universidade.',
     role:
-      'Fluxo do usuário, prototipação, arquitetura da informação, filtros, busca e mini relatório UX/QA.',
-    tags: ['UX/UI', 'Figma', 'Arquitetura da Informação', 'Fluxo de Usuário', 'UX/QA'],
+      'Arquitetura da informação, fluxos de usuário, organização da navegação, filtros e busca, prototipação no Figma e análise UX/QA com documentação de problemas e oportunidades de melhoria.',
+    tags: ['UX Research', 'UX/UI', 'Figma', 'Arquitetura da Informação', 'User Flows', 'UX/QA', 'Documentação'],
     driveLink: PROJECT_DRIVE_LINKS.hubUfc,
     detailsLink: PROJECT_DETAILS_LINKS.hubUfc,
     externalLink: PROJECT_EXTERNAL_LINKS.hubUfc,
-    externalLabel: 'Ver protótipo',
-  },
-  {
-    id: 'pegaPista',
-    title: 'PegaPista!',
-    category: 'Mobile | UX/UI | Gamificação',
-    description:
-      'Aplicativo mobile de corrida criado na disciplina de Mobile, com proposta de registro de atividades, ranking, comunidade e expansão futura com gamificação.',
-    role:
-      'Protótipo inicial no Figma, organização das telas e documento de melhorias UX/UI para evolução do produto.',
-    tags: ['Mobile', 'Figma', 'UX/UI', 'Gamificação', 'Produto Digital'],
-    driveLink: PROJECT_DRIVE_LINKS.pegaPista,
-    detailsLink: PROJECT_DETAILS_LINKS.pegaPista,
-    externalLink: PROJECT_EXTERNAL_LINKS.pegaPista,
     externalLabel: 'Ver protótipo',
   },
   {
@@ -55,6 +41,20 @@ export const projects = [
     detailsLink: PROJECT_DETAILS_LINKS.peluCia,
     externalLink: PROJECT_EXTERNAL_LINKS.peluCia,
     externalLabel: 'Ver repositório',
+  },
+  {
+    id: 'operacaoRockstar',
+    title: 'Operação Rockstar: Protocolo Seguro',
+    category: 'Game Design | UX | Jogo Educacional',
+    description:
+      'Jogo educacional criado para a disciplina de Gestão da Tecnologia da Informação, com dinâmica de RPG, tabuleiro e quiz interativo. O projeto aborda temas como Governança de TI, Segurança da Informação, COBIT, ITIL, riscos e processos.',
+    role:
+      'Regras do jogo, fluxo da partida, prototipação, documentação e planejamento da experiência do jogador.',
+    tags: ['Game Design', 'UX', 'Prototipação', 'Educação', 'RPG', 'Quiz'],
+    driveLink: PROJECT_DRIVE_LINKS.operacaoRockstar,
+    detailsLink: PROJECT_DETAILS_LINKS.operacaoRockstar,
+    externalLink: PROJECT_EXTERNAL_LINKS.operacaoRockstar,
+    externalLabel: 'Ver protótipo',
   },
   {
     id: 'barbeariaMenezes',
